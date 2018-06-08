@@ -1,22 +1,66 @@
 .nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.nav a:hover {
+  background-color: teal;
 }
 
 .nav a {
-    margin: 0 10px;
+  margin: 0 10px;
+}
+
+header {
+  background-color: white;
+  border-color: #ccc;
+  border-bottom-style: solid;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header, .main {
-    width: 960px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 960px;
+  margin: 0 auto;
+  color: #777777;
 }
 
 .logo {
-    padding: 10px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  background-color: #666;
+}
+
+.main {
+  background-color: #ffffff;
+  border-color: #ddd;
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: 10px auto;
+  color: #777777;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2,
+h3,
+h4,
+h5,
+hr {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
+  margin: 0;
 }
