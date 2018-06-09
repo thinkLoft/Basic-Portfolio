@@ -5,10 +5,13 @@
 
 .nav a:hover {
   background-color: teal;
+  color: white;
 }
 
 .nav a {
   margin: 0 10px;
+  color: #777;
+  text-decoration: none;
 }
 
 header {
